@@ -1,0 +1,36 @@
+.card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    scale: 1.1;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .content {
+    padding: 10px;
+  }
+  
+  .title {
+    font-size: 1.2em;
+    margin: 0;
+    color: #0070f3;
+  }
+  
+  .description {
+    font-size: 0.9em;
+    color: #333;
+  }
